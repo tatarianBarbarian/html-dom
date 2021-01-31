@@ -70,6 +70,9 @@ const handleClick = function() {
 
 No flag at all! The code is more readable and easier to understand.
 
+Be careful with this method, because it may cause the memory leak.
+To avoid them make sure you remove event listener for keydown event inside it's callback.
+
 ## Use cases
 
 You can see the tip used in another posts:

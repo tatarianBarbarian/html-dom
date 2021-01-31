@@ -35,6 +35,8 @@ ele.classList.remove('another', 'class', 'name');
 ~~~ javascript
 ele.classList.toggle('class-name');
 ~~~
+
+classList.toggle also has a second parameter, which is boolean, that forces the class to be added or removed, regardless of whether or not it already existed.
 `}
 />
 <RelatedPosts
